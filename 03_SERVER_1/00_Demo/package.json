@@ -1,0 +1,24 @@
+{
+  "name": "m307",
+  "version": "1.0.0",
+  "description": "ICT-Modul_307",
+  "main": "server.js",
+  "scripts": {
+    "server1": "nodemon 01_server.js",
+    "server2": "nodemon 02_server.js",
+    "server3": "nodemon 03a_server.js",
+    "server3b": "nodemon 03b_server.js",
+    "server4": "nodemon 04_server.js"
+  },
+  "keywords": [
+    "m307",
+    "ICT",
+    "javascript", "Server"
+  ],
+  "author": "daniel.garavaldi@bzz.ch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.20"
+  }
+}

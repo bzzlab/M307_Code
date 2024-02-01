@@ -1,0 +1,44 @@
+const professionList = ["Applikationsentwickler", "IMS",
+    "Mediamaitker", "Recyclist", "Detailhandel", "Kaufmann"];
+
+fetchLernenderJSON().then(data => {
+    let lernender = data;
+    console.log(lernender);
+    //Identification
+//??
+//??
+//??
+//??
+//??
+//??
+
+    //Lehrbetrieb
+//??
+//??
+//??
+//??
+//??
+
+    //Kurse - Berufskunde
+//??
+//??
+//??
+//??
+
+    //ABU oder BMS
+//??
+//??
+//??
+//??
+
+    //Kurse - Allgemein Bildung
+//??
+//??
+//??
+//??
+//??
+});
+
+
+
+
