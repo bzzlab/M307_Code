@@ -13,7 +13,7 @@ HTTP-Response:
 "Ihre POST-Anfrage: Es können noch keine Schuhprodukte erzeugt werden!"
 
 HTTP-Request: GET /api/v2/shoes
-HTTP-Response: Rückgabe des Inhalts aus './daten/cars.json'
+HTTP-Response: Rückgabe des Inhalts aus './daten/shoes.json'
 */
 
 /*
