@@ -43,18 +43,64 @@ Keine Daten zum Schuh mit ID=6 gefunden!
     //then send all daten
 //??
 //??
-//request with id ..
+
+
+/**
+ * Send all shoes that matches the provided size as parameter
+ * when requesting /api/shoes/sizes/:value
+ */
 //??
-    //then read id
+    //parse query parameter
 //??
     //filter entry by id and assign result to shoe
 //??
-    //if shoe is empty
+//??
+//??
+    //if article is empty
 //??
         //then send message: Keine Daten ...
 //??
 //??
-        //else send shoe entry
+        //else send article entry
+//??
+//??
+//??
+
+/**
+ * Send all shoes that are equal or lower as the provided price
+ * when requesting /api/price/lower/<price>
+ */
+//??
+    //parse query parameter
+//??
+//??
+//??
+    //if article is empty
+//??
+        //then send message: Keine Daten ...
+//??
+//??
+        //else send article entry
+//??
+//??
+//??
+
+/**
+ * Send all shoes that matches the provided brand as parameter
+ * when requesting /api/shoes/brand/:name
+ */
+//??
+    //parse query parameter
+//??
+    //set regex
+//??
+//??
+//??
+//??
+        //then send message: Keine Daten ...
+//??
+//??
+        //else send article entry
 //??
 //??
 //??
