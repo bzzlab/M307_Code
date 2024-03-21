@@ -1,0 +1,38 @@
+[
+  {
+    "id":1,
+    "model":"Old School",
+    "brand":"Vans",
+    "Price":"70",
+    "sizes":["41", "42", "43", "44", "45", "46", "47"],
+    "individualcolors": ["black", "white", "cream-white"]
+  },{
+  "id":2,
+  "model":"Air Force 1",
+  "brand":"Nike",
+  "Price":"120",
+  "sizes":["36", "36.5", "37", "38"],
+  "individualcolors": ["black", "white", "pink", "türkis", "Rot"]
+  },{
+  "id":3,
+  "model":"Igloo C2",
+  "brand":"Panama Jack",
+  "Price":"200",
+  "sizes":["35", "37", "40", "44", "45", "46", "47"],
+  "individualcolors": ["Dark Leather", "Bright Leather"]
+  },{
+  "id":4,
+  "model":"Herrenstiefel 6 Inch",
+  "brand":"Timberland",
+  "Price":"300",
+  "sizes":["45", "46", "47"],
+  "individualcolors": ["Bright leather", "Dark Leather", "Black", "White"]
+  },{
+  "id":5,
+  "model":"Superstar",
+  "brand":"Adidas",
+  "Price":"80",
+  "sizes":["41", "42", "43", "44", "45", "46", "47"],
+  "individualcolors": ["black", "white", "red", "green", "yellow", "blue"]
+  }
+]
