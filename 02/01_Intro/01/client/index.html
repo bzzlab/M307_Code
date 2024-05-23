@@ -10,14 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
           crossorigin="anonymous">
-    <!-- include theme -->
-<!--??-->
     <!-- include JavaScripts -->
-<!--??-->
-<!--??-->
+    <script src="script/fetchData.js"></script><!--??-->
+    <script defer src="script/showData.js"></script><!--??-->
 </head>
 <!-- run init function when loading website -->
-<!--??-->
+<body onload="init()"><!--??-->
 <div class="container">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -25,6 +23,7 @@
             <p class="lead">Student manager</p>
         </div>
     </div>
+
     <div style="margin-bottom: 3rem"></div>
     <!-- Output student and Lehrbetrieb -->
     <div class="row">
@@ -46,6 +45,7 @@
         </div>
     </div>
     <div style="margin-bottom: 1.5rem"></div>
+
     <!-- Output courses -->
     <div class="row">
         <div class="col-sm">
@@ -65,20 +65,8 @@
             </div>
         </div>
     </div>
-    <div style="margin-bottom: 2rem"></div>
-    <!-- Pagination -->
-    <nav aria-label="Page navigation example">
-        <ul id="pagination" class="pagination">
-<!--??-->
-<!--??-->
-<!--??-->
-<!--??-->
-<!--??-->
-<!--??-->
-<!--??-->
-        </ul>
-    </nav>
 </div>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

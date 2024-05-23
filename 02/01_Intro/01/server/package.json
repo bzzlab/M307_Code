@@ -1,7 +1,7 @@
 {
-  "name": "m307",
+  "name": "client-server-api",
   "version": "1.0.0",
-  "description": "ICT-Modul_307",
+  "description": "client-server-api",
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js"
