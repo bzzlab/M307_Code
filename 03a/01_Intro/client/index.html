@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat-App-1</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
+            integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- include theme -->
+    <style>
+        * {
+            font-size: 1.5rem;
+        }
+
+        body {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            gap: 4px;
+        }
+        ul {
+            display: flex;
+            flex-flow: column;
+            justify-content: left;
+            list-style-type: none;
+        }
+        input,
+        button {
+            border-radius: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<p>Check web console!</p>
+<script type="application/javascript">
+    //set socket io
+    let socket = io('http://localhost:5000');//??
+    //listen to message from server
+    socket.on('greeting-from-server', function (message) {//??
+        //append html text node
+        document.body.appendChild(//??
+            document.createTextNode(message.greeting)//??
+        );//??
+        //emit message to server
+        socket.emit('greeting-from-client', {//??
+            greeting: `Hello Server`//??
+        });//??
+    });//??
+</script>
+</body>
+</html>
+
