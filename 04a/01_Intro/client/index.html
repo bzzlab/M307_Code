@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat-App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
+            integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <!-- include Theme -->
+    <link rel="stylesheet" href="styles/theme.css"><!--??-->
+    <!-- include JavaScripts -->
+    <script defer src="scripts/updateUI.js"></script><!--??-->
+</head>
+<body>
+<div class="container">
+    <form id="message-form">
+        <p>
+            <label for="email">Email</label>
+            <input class="form-control" type="email"
+                   id="email" size="30"
+                   placeholder="Enter your @example email"/>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message"></textarea>
+        </p>
+        <button class="btnbtn-primary" id="btn" type="submit">Send</button>
+    </form>
+    <div id="messages"></div>
+</div>
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+</body>
+</html>
